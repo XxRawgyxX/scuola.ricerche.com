@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito Scolastico Futuristico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Archivio Ricerche</h1>
+        <p>Progetto scolastico di XxRawgyxX</p>
+    </header>
+
+    <nav>
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('ricerche')">Ricerche</button>
+        <button onclick="showSection('vitruviano')">Uomo Vitruviano</button>
+        <button onclick="showSection('citta')">Città Ideale</button>
+    </nav>
+
+    <main>
+
+        <!-- HOME -->
+        <section id="home" class="card visible">
+            <h2>Benvenuto nel mio sito scolastico</h2>
+            <p>Qui raccolgo tutte le ricerche che preparo per la scuola. Il sito è in stile futuristico e verrà aggiornato con nuovi argomenti.</p>
+        </section>
+
+        <!-- RICERCHE -->
+        <section id="ricerche" class="card">
+            <h2>Elenco delle ricerche</h2>
+            <ul class="ricerche-lista">
+                <li onclick="showSection('vitruviano')"><strong>Uomo Vitruviano</strong> – Arte / Leonardo da Vinci</li>
+                <li onclick="showSection('citta')"><strong>Tavole della Città Ideale</strong> – Rinascimento</li>
+            </ul>
+        </section>
+
+        <!-- UOMO VITRUVIANO -->
+        <section id="vitruviano" class="card">
+            <h2>L'Uomo Vitruviano</h2>
+
+            <p>L’Uomo Vitruviano è uno dei disegni più celebri e affascinanti della storia dell’arte, realizzato da Leonardo da Vinci intorno al 1490. Il disegno rappresenta un uomo nudo inscritto contemporaneamente in un cerchio e in un quadrato, due forme geometriche perfette. L’opera prende il nome dall’architetto romano Marco Vitruvio Pollione, che nel suo trattato *De Architectura* descrisse le proporzioni ideali del corpo umano.</p>
+
+            <h3>Origine e contesto storico</h3>
+            <p>Leonardo realizzò questo studio durante il periodo in cui si trovava a Milano, alla corte di Ludovico il Moro. In quegli anni, l’artista era profondamente interessato allo studio dell’anatomia, della matematica, della geometria e della proporzione. L’Uomo Vitruviano nasce come tentativo di unire scienza e arte, mostrando come il corpo umano sia costruito secondo leggi matematiche precise.</p>
+
+            <h3>Significato simbolico</h3>
+            <p>Il cerchio rappresenta il mondo spirituale, il divino, la perfezione assoluta. Il quadrato rappresenta invece il mondo terreno, la materia, la stabilità. L’uomo posto al centro delle due figure simboleggia l’idea rinascimentale che l’essere umano sia il punto di incontro tra cielo e terra, tra spiritualità e razionalità.</p>
+
+            <h3>Le proporzioni secondo Vitruvio</h3>
+            <ul>
+                <li>L’altezza dell’uomo è pari all’apertura delle braccia.</li>
+                <li>Il volto misura un decimo dell’altezza totale.</li>
+                <li>Il piede misura un settimo dell’altezza.</li>
+                <li>La distanza dal mento alla sommità del capo è un ottavo dell’altezza.</li>
+                <li>La distanza tra le spalle è un quarto dell’altezza.</li>
+            </ul>
+
+            <h3>Perché è così importante</h3>
+            <p>L’Uomo Vitruviano è considerato un simbolo universale dell’armonia e della perfezione. Rappresenta l’ideale rinascimentale dell’uomo come misura di tutte le cose. L’opera è anche un esempio straordinario del metodo di Leonardo: osservazione, studio scientifico e rappresentazione artistica si fondono in un’unica immagine.</p>
+
+            <h3>Conclusione</h3>
+            <p>L’Uomo Vitruviano non è solo un disegno, ma una dichiarazione filosofica: l’essere umano è al centro dell’universo e può comprenderlo attraverso la ragione, la scienza e l’arte. È uno dei simboli più riconosciuti al mondo e continua a rappresentare l’idea di equilibrio, proporzione e bellezza.</p>
+        </section>
+
+        <!-- CITTA' IDEALE -->
+        <section id="citta" class="card">
+            <h2>Le Tavole della Città Ideale</h2>
+
+            <p>Le Tavole della Città Ideale sono tre straordinarie opere del Rinascimento, conservate oggi a Urbino, Baltimora e Berlino. Non si conosce con certezza l’autore, ma si pensa che possano essere state realizzate da artisti legati alla corte di Federico da Montefeltro, come Piero della Francesca, Luciano Laurana o Francesco di Giorgio Martini.</p>
+
+            <h3>Che cosa rappresentano</h3>
+            <p>Le tavole mostrano città perfette, ordinate e geometriche, costruite secondo i principi dell’architettura rinascimentale. Le strade sono simmetriche, gli edifici armoniosi e tutto è progettato secondo proporzioni matematiche. Le città appaiono completamente vuote: non ci sono persone, animali o attività quotidiane. Questo perché non rappresentano città reali, ma ideali.</p>
+
+            <h3>Caratteristiche principali</h3>
+            <ul>
+                <li>Prospettiva centrale perfetta, con un punto di fuga unico.</li>
+                <li>Edifici ispirati all’architettura classica romana.</li>
+                <li>Simmetria assoluta tra gli elementi architettonici.</li>
+                <li>Atmosfera calma e immobile, quasi “sospesa”.</li>
+                <li>Uso di colori chiari e luminosi che trasmettono ordine e purezza.</li>
+            </ul>
+
+            <h3>Significato filosofico</h3>
+            <p>Le città ideali rappresentano il sogno rinascimentale di una società perfetta, ordinata e razionale. L’architettura diventa simbolo di armonia e progresso. Gli artisti del Rinascimento credevano che una città ben progettata potesse migliorare la vita delle persone e riflettere un ordine morale superiore.</p>
+
+            <h3>Importanza storica</h3>
+            <p>Le Tavole della Città Ideale sono fondamentali per comprendere lo sviluppo della prospettiva e dell’urbanistica rinascimentale. Sono tra i primi esempi di rappresentazione architettonica completamente basata su regole matematiche. Inoltre, mostrano come gli artisti dell’epoca cercassero di unire arte, scienza e filosofia in un’unica visione del mondo.</p>
+
+            <h3>Conclusione</h3>
+            <p>Le Tavole della Città Ideale non sono semplici dipinti, ma veri e propri manifesti del pensiero rinascimentale. Rappresentano un mondo perfetto, costruito secondo armonia, proporzione e razionalità. Ancora oggi affascinano studiosi e appassionati per la loro bellezza e il loro mistero.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Sito realizzato da XxRawgyxX</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -3,3 +3,19 @@ function showSection(id) {
     document.getElementById(id).classList.add('visible');
     window.scrollTo({ top: 0, behavior: "smooth" });
 }
+
+/* APERTURA RICERCA SCIENZE */
+function openScience() {
+    document.getElementById("scienzeContent").classList.remove("hidden");
+}
+
+/* SWITCH TEMA */
+document.getElementById("themeToggle").addEventListener("change", function() {
+    if (this.checked) {
+        document.body.classList.remove("dark");
+        document.body.classList.add("light");
+    } else {
+        document.body.classList.remove("light");
+        document.body.classList.add("dark");
+    }
+});

@@ -4,11 +4,6 @@ function showSection(id) {
     window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-/* APERTURA RICERCA SCIENZE */
-function openScience() {
-    document.getElementById("scienzeContent").classList.remove("hidden");
-}
-
 /* SWITCH TEMA */
 document.getElementById("themeToggle").addEventListener("change", function() {
     if (this.checked) {

@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sito Scolastico Futuristico</title>
+    <meta name="description" content="Sito scolastico futuristico con ricerche di arte, storia e scienze realizzato da XxRawgyxX, KromiX, Lorenzo L. e Leonardo G.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
         <h1>Archivio Ricerche</h1>
-        <p>Progetto scolastico di XxRawgyxX</p>
+        <p>Progetto scolastico di XxRawgyxX, KromiX, Lorenzo L. e Leonardo G.</p>
     </header>
 
     <nav>
@@ -18,14 +19,15 @@
         <button onclick="showSection('ricerche')">Ricerche</button>
         <button onclick="showSection('vitruviano')">Uomo Vitruviano</button>
         <button onclick="showSection('citta')">Città Ideale</button>
+        <button onclick="showSection('scienze')">Scienze</button>
     </nav>
 
     <main>
 
         <!-- HOME -->
         <section id="home" class="card visible">
-            <h2>Benvenuto nel mio sito scolastico</h2>
-            <p>Qui raccolgo tutte le ricerche che preparo per la scuola. Il sito è in stile futuristico e verrà aggiornato con nuovi argomenti.</p>
+            <h2>Benvenuto nel nostro sito scolastico</h2>
+            <p>Qui raccogliamo tutte le ricerche che prepariamo per la scuola. Il sito è in stile futuristico e verrà aggiornato con nuovi argomenti.</p>
         </section>
 
         <!-- RICERCHE -->
@@ -34,6 +36,7 @@
             <ul class="ricerche-lista">
                 <li onclick="showSection('vitruviano')"><strong>Uomo Vitruviano</strong> – Arte / Leonardo da Vinci</li>
                 <li onclick="showSection('citta')"><strong>Tavole della Città Ideale</strong> – Rinascimento</li>
+                <li onclick="showSection('scienze')"><strong>Obesità e Diabete</strong> – Scienze</li>
             </ul>
         </section>
 
@@ -41,13 +44,13 @@
         <section id="vitruviano" class="card">
             <h2>L'Uomo Vitruviano</h2>
 
-            <p>L’Uomo Vitruviano è uno dei disegni più celebri e affascinanti della storia dell’arte, realizzato da Leonardo da Vinci intorno al 1490. Il disegno rappresenta un uomo nudo inscritto contemporaneamente in un cerchio e in un quadrato, due forme geometriche perfette. L’opera prende il nome dall’architetto romano Marco Vitruvio Pollione, che nel suo trattato *De Architectura* descrisse le proporzioni ideali del corpo umano.</p>
+            <p>L’Uomo Vitruviano è uno dei disegni più celebri della storia dell’arte, realizzato da Leonardo da Vinci intorno al 1490. Rappresenta un uomo inscritto in un cerchio e in un quadrato, due forme geometriche perfette. L’opera prende il nome dall’architetto romano Vitruvio, che descrisse le proporzioni ideali del corpo umano nel suo trattato *De Architectura*.</p>
 
             <h3>Origine e contesto storico</h3>
-            <p>Leonardo realizzò questo studio durante il periodo in cui si trovava a Milano, alla corte di Ludovico il Moro. In quegli anni, l’artista era profondamente interessato allo studio dell’anatomia, della matematica, della geometria e della proporzione. L’Uomo Vitruviano nasce come tentativo di unire scienza e arte, mostrando come il corpo umano sia costruito secondo leggi matematiche precise.</p>
+            <p>Leonardo realizzò questo studio durante il suo periodo milanese, quando era impegnato in ricerche su anatomia, matematica, geometria e proporzioni. L’Uomo Vitruviano nasce come tentativo di unire scienza e arte, mostrando come il corpo umano sia costruito secondo leggi matematiche precise.</p>
 
             <h3>Significato simbolico</h3>
-            <p>Il cerchio rappresenta il mondo spirituale, il divino, la perfezione assoluta. Il quadrato rappresenta invece il mondo terreno, la materia, la stabilità. L’uomo posto al centro delle due figure simboleggia l’idea rinascimentale che l’essere umano sia il punto di incontro tra cielo e terra, tra spiritualità e razionalità.</p>
+            <p>Il cerchio rappresenta il mondo spirituale e la perfezione divina. Il quadrato rappresenta la terra, la materia e la stabilità. L’uomo al centro simboleggia l’idea rinascimentale che l’essere umano sia il punto di incontro tra cielo e terra.</p>
 
             <h3>Le proporzioni secondo Vitruvio</h3>
             <ul>
@@ -58,47 +61,190 @@
                 <li>La distanza tra le spalle è un quarto dell’altezza.</li>
             </ul>
 
-            <h3>Perché è così importante</h3>
-            <p>L’Uomo Vitruviano è considerato un simbolo universale dell’armonia e della perfezione. Rappresenta l’ideale rinascimentale dell’uomo come misura di tutte le cose. L’opera è anche un esempio straordinario del metodo di Leonardo: osservazione, studio scientifico e rappresentazione artistica si fondono in un’unica immagine.</p>
+            <h3>Metodo di Leonardo</h3>
+            <p>Leonardo studiò il corpo umano attraverso dissezioni e misurazioni reali. Confrontò i dati raccolti con le proporzioni descritte da Vitruvio, verificando scientificamente la loro correttezza.</p>
 
             <h3>Conclusione</h3>
-            <p>L’Uomo Vitruviano non è solo un disegno, ma una dichiarazione filosofica: l’essere umano è al centro dell’universo e può comprenderlo attraverso la ragione, la scienza e l’arte. È uno dei simboli più riconosciuti al mondo e continua a rappresentare l’idea di equilibrio, proporzione e bellezza.</p>
+            <p>L’Uomo Vitruviano è un simbolo universale di equilibrio, proporzione e armonia. Rappresenta l’ideale rinascimentale dell’uomo come misura di tutte le cose.</p>
         </section>
 
         <!-- CITTA' IDEALE -->
         <section id="citta" class="card">
             <h2>Le Tavole della Città Ideale</h2>
 
-            <p>Le Tavole della Città Ideale sono tre straordinarie opere del Rinascimento, conservate oggi a Urbino, Baltimora e Berlino. Non si conosce con certezza l’autore, ma si pensa che possano essere state realizzate da artisti legati alla corte di Federico da Montefeltro, come Piero della Francesca, Luciano Laurana o Francesco di Giorgio Martini.</p>
+            <p>Le Tavole della Città Ideale sono tre opere rinascimentali conservate a Urbino, Baltimora e Berlino. Non si conosce con certezza l’autore, ma si pensa che possano essere state realizzate da artisti legati alla corte di Federico da Montefeltro, come Piero della Francesca o Francesco di Giorgio Martini.</p>
 
             <h3>Che cosa rappresentano</h3>
-            <p>Le tavole mostrano città perfette, ordinate e geometriche, costruite secondo i principi dell’architettura rinascimentale. Le strade sono simmetriche, gli edifici armoniosi e tutto è progettato secondo proporzioni matematiche. Le città appaiono completamente vuote: non ci sono persone, animali o attività quotidiane. Questo perché non rappresentano città reali, ma ideali.</p>
+            <p>Le tavole mostrano città perfette, ordinate e geometriche, costruite secondo i principi dell’architettura rinascimentale. Le strade sono simmetriche, gli edifici armoniosi e tutto è progettato secondo proporzioni matematiche.</p>
 
             <h3>Caratteristiche principali</h3>
             <ul>
-                <li>Prospettiva centrale perfetta, con un punto di fuga unico.</li>
-                <li>Edifici ispirati all’architettura classica romana.</li>
-                <li>Simmetria assoluta tra gli elementi architettonici.</li>
-                <li>Atmosfera calma e immobile, quasi “sospesa”.</li>
-                <li>Uso di colori chiari e luminosi che trasmettono ordine e purezza.</li>
+                <li>Prospettiva centrale perfetta.</li>
+                <li>Edifici ispirati all’architettura classica.</li>
+                <li>Simmetria e ordine assoluto.</li>
+                <li>Assenza di persone: la città è ideale, non reale.</li>
             </ul>
 
             <h3>Significato filosofico</h3>
-            <p>Le città ideali rappresentano il sogno rinascimentale di una società perfetta, ordinata e razionale. L’architettura diventa simbolo di armonia e progresso. Gli artisti del Rinascimento credevano che una città ben progettata potesse migliorare la vita delle persone e riflettere un ordine morale superiore.</p>
-
-            <h3>Importanza storica</h3>
-            <p>Le Tavole della Città Ideale sono fondamentali per comprendere lo sviluppo della prospettiva e dell’urbanistica rinascimentale. Sono tra i primi esempi di rappresentazione architettonica completamente basata su regole matematiche. Inoltre, mostrano come gli artisti dell’epoca cercassero di unire arte, scienza e filosofia in un’unica visione del mondo.</p>
+            <p>Le città ideali rappresentano il sogno rinascimentale di una società perfetta, ordinata e razionale. L’architettura diventa simbolo di armonia e progresso.</p>
 
             <h3>Conclusione</h3>
-            <p>Le Tavole della Città Ideale non sono semplici dipinti, ma veri e propri manifesti del pensiero rinascimentale. Rappresentano un mondo perfetto, costruito secondo armonia, proporzione e razionalità. Ancora oggi affascinano studiosi e appassionati per la loro bellezza e il loro mistero.</p>
+            <p>Le Tavole della Città Ideale sono un capolavoro della prospettiva e dell’urbanistica rinPerfetto, NocitsMC — aggiorno **tutto il progetto** inserendo anche i tuoi compagni:
+
+**XxRawgyxX, KromiX, Lorenzo L. e Leonardo G.**
+
+Li metto sia nell’header che nel footer, così risultano come co‑autori ufficiali del sito.
+
+Qui sotto trovi **tutti i file completi e corretti**, già pronti da usare.
+
+---
+
+# 🌐 **index.html (AGGIORNATO CON I 4 AUTORI)**
+
+```html
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito Scolastico Futuristico</title>
+    <meta name="description" content="Sito scolastico futuristico con ricerche di arte, storia e scienze realizzato da XxRawgyxX, KromiX, Lorenzo L. e Leonardo G.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Archivio Ricerche</h1>
+        <p>Progetto scolastico di XxRawgyxX, KromiX, Lorenzo L. e Leonardo G.</p>
+    </header>
+
+    <nav>
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('ricerche')">Ricerche</button>
+        <button onclick="showSection('vitruviano')">Uomo Vitruviano</button>
+        <button onclick="showSection('citta')">Città Ideale</button>
+        <button onclick="showSection('scienze')">Scienze</button>
+    </nav>
+
+    <main>
+
+        <!-- HOME -->
+        <section id="home" class="card visible">
+            <h2>Benvenuto nel nostro sito scolastico</h2>
+            <p>Qui raccogliamo tutte le ricerche che prepariamo per la scuola. Il sito è in stile futuristico e verrà aggiornato con nuovi argomenti.</p>
+        </section>
+
+        <!-- RICERCHE -->
+        <section id="ricerche" class="card">
+            <h2>Elenco delle ricerche</h2>
+            <ul class="ricerche-lista">
+                <li onclick="showSection('vitruviano')"><strong>Uomo Vitruviano</strong> – Arte / Leonardo da Vinci</li>
+                <li onclick="showSection('citta')"><strong>Tavole della Città Ideale</strong> – Rinascimento</li>
+                <li onclick="showSection('scienze')"><strong>Obesità e Diabete</strong> – Scienze</li>
+            </ul>
+        </section>
+
+        <!-- UOMO VITRUVIANO -->
+        <section id="vitruviano" class="card">
+            <h2>L'Uomo Vitruviano</h2>
+
+            <p>L’Uomo Vitruviano è uno dei disegni più celebri della storia dell’arte, realizzato da Leonardo da Vinci intorno al 1490. Rappresenta un uomo inscritto in un cerchio e in un quadrato, due forme geometriche perfette. L’opera prende il nome dall’architetto romano Vitruvio, che descrisse le proporzioni ideali del corpo umano nel suo trattato *De Architectura*.</p>
+
+            <h3>Origine e contesto storico</h3>
+            <p>Leonardo realizzò questo studio durante il suo periodo milanese, quando era impegnato in ricerche su anatomia, matematica, geometria e proporzioni. L’Uomo Vitruviano nasce come tentativo di unire scienza e arte, mostrando come il corpo umano sia costruito secondo leggi matematiche precise.</p>
+
+            <h3>Significato simbolico</h3>
+            <p>Il cerchio rappresenta il mondo spirituale e la perfezione divina. Il quadrato rappresenta la terra, la materia e la stabilità. L’uomo al centro simboleggia l’idea rinascimentale che l’essere umano sia il punto di incontro tra cielo e terra.</p>
+
+            <h3>Le proporzioni secondo Vitruvio</h3>
+            <ul>
+                <li>L’altezza dell’uomo è pari all’apertura delle braccia.</li>
+                <li>Il volto misura un decimo dell’altezza totale.</li>
+                <li>Il piede misura un settimo dell’altezza.</li>
+                <li>La distanza dal mento alla sommità del capo è un ottavo dell’altezza.</li>
+                <li>La distanza tra le spalle è un quarto dell’altezza.</li>
+            </ul>
+
+            <h3>Metodo di Leonardo</h3>
+            <p>Leonardo studiò il corpo umano attraverso dissezioni e misurazioni reali. Confrontò i dati raccolti con le proporzioni descritte da Vitruvio, verificando scientificamente la loro correttezza.</p>
+
+            <h3>Conclusione</h3>
+            <p>L’Uomo Vitruviano è un simbolo universale di equilibrio, proporzione e armonia. Rappresenta l’ideale rinascimentale dell’uomo come misura di tutte le cose.</p>
+        </section>
+
+        <!-- CITTA' IDEALE -->
+        <section id="citta" class="card">
+            <h2>Le Tavole della Città Ideale</h2>
+
+            <p>Le Tavole della Città Ideale sono tre opere rinascimentali conservate a Urbino, Baltimora e Berlino. Non si conosce con certezza l’autore, ma si pensa che possano essere state realizzate da artisti legati alla corte di Federico da Montefeltro, come Piero della Francesca o Francesco di Giorgio Martini.</p>
+
+            <h3>Che cosa rappresentano</h3>
+            <p>Le tavole mostrano città perfette, ordinate e geometriche, costruite secondo i principi dell’architettura rinascimentale. Le strade sono simmetriche, gli edifici armoniosi e tutto è progettato secondo proporzioni matematiche.</p>
+
+            <h3>Caratteristiche principali</h3>
+            <ul>
+                <li>Prospettiva centrale perfetta.</li>
+                <li>Edifici ispirati all’architettura classica.</li>
+                <li>Simmetria e ordine assoluto.</li>
+                <li>Assenza di persone: la città è ideale, non reale.</li>
+            </ul>
+
+            <h3>Significato filosofico</h3>
+            <p>Le città ideali rappresentano il sogno rinascimentale di una società perfetta, ordinata e razionale. L’architettura diventa simbolo di armonia e progresso.</p>
+
+            <h3>Conclusione</h3>
+            <p>Le Tavole della Città Ideale sono un capolavoro della prospettiva e dell’urbanistica rinascimentale, simbolo di perfezione e razionalità.</p>
+        </section>
+
+        <!-- SCIENZE: OBESITÀ E DIABETE -->
+        <section id="scienze" class="card">
+            <h2>Ricerca di Scienze: Obesità e Diabete</h2>
+
+            <p>L’obesità e il diabete sono due condizioni molto diffuse e spesso collegate tra loro. Studiare questi argomenti è importante per comprendere come funziona il nostro corpo e come mantenersi in salute. Per qualsiasi dubbio personale, però, è sempre necessario rivolgersi a un medico.</p>
+
+            <h3>Che cos’è l’obesità</h3>
+            <p>L’obesità è un eccessivo accumulo di grasso corporeo che può aumentare il rischio di molte malattie. Non è solo una questione estetica, ma un problema di salute che può influire sul cuore, sulla respirazione, sulle articolazioni e sul metabolismo.</p>
+
+            <h3>Cause dell’obesità</h3>
+            <ul>
+                <li>Alimentazione ricca di zuccheri e grassi.</li>
+                <li>Poca attività fisica.</li>
+                <li>Fattori genetici.</li>
+                <li>Stress e abitudini scorrette.</li>
+                <li>Uso eccessivo di dispositivi elettronici.</li>
+            </ul>
+
+            <h3>Che cos’è il diabete</h3>
+            <p>Il diabete è una malattia in cui il corpo non riesce a controllare correttamente la quantità di zucchero nel sangue. Il glucosio è la principale fonte di energia, ma per essere utilizzato ha bisogno dell’insulina, un ormone prodotto dal pancreas.</p>
+
+            <h3>Tipi di diabete</h3>
+            <ul>
+                <li><strong>Tipo 1</strong> – Il pancreas non produce insulina.</li>
+                <li><strong>Tipo 2</strong> – Il corpo non utilizza bene l’insulina. È il più comune e spesso collegato all’obesità.</li>
+            </ul>
+
+            <h3>Legame tra obesità e diabete</h3>
+            <p>L’obesità, soprattutto quella addominale, rende il corpo meno sensibile all’insulina. Questo può portare allo sviluppo del diabete di tipo 2.</p>
+
+            <h3>Prevenzione</h3>
+            <ul>
+                <li>Fare attività fisica regolare.</li>
+                <li>Mangiare frutta, verdura e cibi freschi.</li>
+                <li>Limitare zuccheri e grassi.</li>
+                <li>Dormire bene e ridurre lo stress.</li>
+            </ul>
+
+            <h3>Conclusione</h3>
+            <p>Obesità e diabete sono condizioni serie ma prevenibili. Con uno stile di vita sano si può ridurre il rischio e migliorare il benessere generale.</p>
         </section>
 
     </main>
 
     <footer>
-        <p>Sito realizzato da XxRawgyxX</p>
+        <p>Sito realizzato da XxRawgyxX, KromiX, Lorenzo L. e Leonardo G.</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+

@@ -117,21 +117,3 @@ nav button:hover {
     background: rgba(0, 100, 200, 0.2);
     padding-left: 20px;
 }
-
-/* BOTTONE SCENZE */
-.open-research {
-    background: #00aaff;
-    border: none;
-    padding: 12px 20px;
-    color: #001f3f;
-    font-weight: bold;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
-
-.hidden {
-    display: none;
-}
-
-
